@@ -1,0 +1,64 @@
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+
+}
+.navbar{
+    width: 75%;
+    height: 100%;
+
+    display: flex;
+}
+.logo{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.links ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+.links{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links ul li {
+    color: rgb(141, 133, 133);
+    transition: .3s;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: rgb(141, 133, 133);
+    transition: .3s;
+}
+
+.links ul li:hover{
+    color: black;
+}
+.links ul .link:hover{
+    color: black;
+}
+.links button{
+    background-color: #f4b200;
+    height: 35px;
+    width: 90px;
+    color: white;
+    border-radius: 20px;
+    border-width: 0;
+    transform: .3s;
+    cursor: pointer;
+}
+.links button:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

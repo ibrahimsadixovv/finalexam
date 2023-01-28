@@ -1,0 +1,207 @@
+.main{
+  height: 100vh;
+  width: 100%;
+  background-image: url(http://www.themestarz.net/html/lifecoach/assets/img/bg-shape-bottom-right.png);
+  position: relative;
+}
+.bgc{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: url(http://www.themestarz.net/html/lifecoach/assets/img/bg-shape-top-left.png);
+}
+.bgcSecond{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: url(http://www.themestarz.net/html/lifecoach/assets/img/bg-woman.png);
+}
+
+.left{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.leftBottom{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left h1{
+  font-size: 60px;
+  width: 45%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cardsPage{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.leftBottom button{
+  background-color: #f4b200;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 30px;
+    border-width: 0;
+    transform: .3s;
+    cursor: pointer;
+}
+.leftBottom p{
+  cursor: pointer;
+}
+.leftBottom button:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.leftBottom p:hover{
+  text-decoration: underline;
+}
+.cardsPage{
+  margin-top: 20px;
+}
+.aboutMe{
+height: 80vh;
+width: 100%;
+background-color: #faf9f6;
+display: flex;
+}
+.leftAbout{
+  width: 50%;
+  height: 100%;
+}
+.rightAbout{
+  width: 50%;
+  height: 100%;
+  background-image: url(http://www.themestarz.net/html/lifecoach/assets/img/img-woman-pointing.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.numbers{
+  height: 20vh;
+  width: 100%;
+  background-color: bisque;
+  color: grey;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.courses{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.courseCard{
+  height: 500px;
+  width: 20%;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.webinar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.webinarCard img{
+  height: 300px;
+  width: 100%;
+}
+.webinarCard{
+  height: 500px;
+  width: 20%;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.webinarCards{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+.webinarBtn{
+  background-color: transparent;
+  height: 40px;
+  color: grey;
+  width: 130px;
+  border-radius: 30px;
+  border-width: 1;
+  border-color: grey;
+  border-style: solid;
+  transform: .3s;
+  cursor: pointer;
+}
+.webinarBtn:hover{
+  background-color: grey;
+  color: white;
+}
+.buy{
+  height: 20vh;
+  width: 100%;
+}
+.brends{
+  height: 10vh;
+  width: 100%; 
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.brends img{
+  height: 80px;
+  width: 80px;
+}
+.lifeCoach{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.lifeCoach button{
+  background-color: #f4b200;
+  height: 35px;
+  width: 140px;
+  color: white;
+  border-radius: 20px;
+  border-width: 0;
+  transform: .3s;
+  cursor: pointer;
+}
+.lifeCoach button:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

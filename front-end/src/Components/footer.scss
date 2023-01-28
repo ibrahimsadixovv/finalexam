@@ -1,0 +1,94 @@
+.footer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+.divImg{
+    height: 40vh;
+    width: 100%;
+    background-image: url(http://maps.google.com/maps/vt?pb=!1m5!1m4!1i13!2i1413!3i3272!4i256!2m3!1e0!2sm!3i631370131!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&token=121503);
+}
+.divBgc{
+    height: 60vh;
+    width: 100%;
+    background-color: #e4966c;
+}
+.footerMain{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.message{
+height:65% ;
+width: 60%;
+background-color: #fff;
+border-radius: 5px;
+display: flex;
+}
+.footerLeft{
+    width: 30%;
+    height: 70%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.footerLeft .phone p{
+color: #f4b200;
+}
+.footerRight{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nameInp{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.nameInp input{
+    width: 45%;
+    height: 40px;
+}
+.messageInp {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.messageInp input {
+    width: 91%;
+    height: 150px ;
+
+}
+.buttonFooter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+    height: 40%;
+
+}
+.footer button{
+    background-color: #f4b200;
+    height: 45px;
+    width: 170px;
+    color: white;
+    border-radius: 30px;
+    border-width: 0;
+    transform: .3s;
+    cursor: pointer;
+}
+.footer button:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
